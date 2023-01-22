@@ -1,0 +1,68 @@
+<html>
+    <head>
+        <title>Atividade 8 - Formulários - Erick Samuel</title>
+        <meta charset="UTF-8">
+    </head>
+    <body>
+        <hr><hr>
+    <center><font color="blue" size="5" face="Times New Roman"><b>Erick Samuel Ayres de Lima Diniz</b></font></center>
+    <br><br>
+    <table color="blue" align="center" width="60%" height="200px">
+        <form>
+        <tr>
+            <td bgcolor="blue" border="2" align="center" colspan="2"><font color="white" size="4" face="verdana"><b>Formulário de Cadastro<b></font></td>
+        </tr>
+        <tr>
+            <td bgcolor="blue" border="2" align="right"><font color="white" size="4" face="verdana"><b>Nome</b></font></td>
+            <td bgcolor="red" ><input type="text" name="nome" size="30" maxlength="40"></td>
+        </tr>
+        <tr>
+            <td bgcolor="blue" border="2" align="right"><font color="white" size="4" face="verdana"><b>Foto</b></font></td>
+            <td bgcolor="red"><img src="leão.jpg" width="35%" heigth="75px"></td>
+        </tr>
+        <tr>
+            <td bgcolor="blue" border="2" align="right"><font color="white" size="4" face="verdana"><b>Aniversário</b></font></td>
+            <td bgcolor="red"><input type="date" name="data"></td>
+        </tr>
+        <tr>
+            <td bgcolor="blue" border="2" align="right"><font color="white" size="4" face="verdana"><b>Salário</b></font></td>
+             <td bgcolor="red"><input type="number" name="salario" size="20" maxlength="15"></td>
+        </tr>
+        <tr>
+            <td bgcolor="blue" border="2" align="right"><font color="white" size="4" face="verdana"><b>Sexo</b></font></td>
+            <td bgcolor="red"><input type="radio" name="sexo" value="masculino"><b>Masculino</b>
+            <input type="radio" name="sexo" value="feminino"><b>Feminino</b>
+            </td>
+        </tr>
+        <tr>
+            <td bgcolor="blue" border="2" align="right"><font color="white" size="4" face="verdana"><b>Automóveis</b></font>
+            <td bgcolor="red"><input type="checkbox" name=“veiculos“ value=“bicicleta”><b>Gof</b>
+            <input type="checkbox" name=“veiculos“ value=“carro”><b>Ferrari</b>
+            <input type="checkbox" name=“veiculos“ value=“moto”><b>Kawasaki</b>
+            <input type="checkbox" name=“veiculos“ value=“biz”><b>S-10</b>
+            </td>
+        </tr>
+        <tr>
+            <td bgcolor="blue" border="2" align="right"><font color="white" size="4" face="verdana"><b>Cidade</></font>
+            <td bgcolor="red"><select name="cidades">
+            <option value=""><b>::Escolha a cidade::</b></option>
+            <option value="Gramado"><b>Gramado</b></option>
+            <option value="Dubai"><b>Dubai</b></option>
+            <option value="Paris"><b>Paris</b></option>
+            <option value="Natal"><b>Natal</b></option>
+            <option value="Jataí"><b>Jataí</b></option>
+            </td>
+        </select>
+        </tr>
+        <tr>
+            <td bgcolor="blue" border="2" align="right"><font color="white" size="4" face="verdana"><b>Observações</b></font></td>
+            <td bgcolor="red"><textarea rows="4" cols="40" name="observacao" placeholder="digite aqui.."></textarea></td>
+        </tr>
+        <td bgcolor="blue" border="2" align="center" colspan="2">
+        <input type="submit" value="Enviar Dados">
+        <input type="reset" value="Apagar Dados">
+        </td>
+        </form>
+    </table>
+    </body>
+</html>
